@@ -1,4 +1,4 @@
 SKHelpers
 =========
 
-Collection of tidbits required almost in every projects.
+Collection of tidbits required in almost every project.
