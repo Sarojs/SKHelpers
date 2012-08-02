@@ -15,6 +15,7 @@
 		440CF82315CA7C4E00A84C91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 440CF82215CA7C4E00A84C91 /* AppDelegate.m */; };
 		440CF82615CA7C4E00A84C91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440CF82515CA7C4E00A84C91 /* ViewController.m */; };
 		440CF82915CA7C4E00A84C91 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440CF82715CA7C4E00A84C91 /* ViewController.xib */; };
+		4495F60715CA7F0100D7186C /* SKValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4495F60615CA7F0100D7186C /* SKValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		440CF82415CA7C4E00A84C91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		440CF82515CA7C4E00A84C91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		440CF82815CA7C4E00A84C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4495F60515CA7F0100D7186C /* SKValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKValidator.h; sourceTree = "<group>"; };
+		4495F60615CA7F0100D7186C /* SKValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKValidator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		440CF81815CA7C4E00A84C91 /* SKHelper */ = {
 			isa = PBXGroup;
 			children = (
+				4495F60415CA7F0100D7186C /* SKHelperFiles */,
 				440CF82115CA7C4E00A84C91 /* AppDelegate.h */,
 				440CF82215CA7C4E00A84C91 /* AppDelegate.m */,
 				440CF82415CA7C4E00A84C91 /* ViewController.h */,
@@ -96,6 +100,15 @@
 				440CF82015CA7C4E00A84C91 /* SKHelper-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4495F60415CA7F0100D7186C /* SKHelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4495F60515CA7F0100D7186C /* SKValidator.h */,
+				4495F60615CA7F0100D7186C /* SKValidator.m */,
+			);
+			path = SKHelperFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +177,7 @@
 				440CF81F15CA7C4E00A84C91 /* main.m in Sources */,
 				440CF82315CA7C4E00A84C91 /* AppDelegate.m in Sources */,
 				440CF82615CA7C4E00A84C91 /* ViewController.m in Sources */,
+				4495F60715CA7F0100D7186C /* SKValidator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +287,7 @@
 				440CF82E15CA7C4E00A84C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
