@@ -77,6 +77,7 @@
 		440CF81815CA7C4E00A84C91 /* SKHelper */ = {
 			isa = PBXGroup;
 			children = (
+				B411432D18094873008D92F9 /* SKHelperFiles */,
 				440CF82115CA7C4E00A84C91 /* AppDelegate.h */,
 				440CF82215CA7C4E00A84C91 /* AppDelegate.m */,
 				440CF82415CA7C4E00A84C91 /* ViewController.h */,
@@ -96,6 +97,13 @@
 				440CF82015CA7C4E00A84C91 /* SKHelper-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B411432D18094873008D92F9 /* SKHelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SKHelperFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
