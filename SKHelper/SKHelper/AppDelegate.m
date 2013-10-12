@@ -3,7 +3,7 @@
 //  SKHelper
 //
 //  Created by Saroj Sharma on 02/08/12.
-//  Copyright (c) 2012 _DayDreamer_. All rights reserved.
+//  Copyright (c) 2012 Saroj Sharma. All rights reserved.
 //
 
 #import "AppDelegate.h"

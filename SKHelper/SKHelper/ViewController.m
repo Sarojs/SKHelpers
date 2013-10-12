@@ -3,10 +3,11 @@
 //  SKHelper
 //
 //  Created by Saroj Sharma on 02/08/12.
-//  Copyright (c) 2012 _DayDreamer_. All rights reserved.
+//  Copyright (c) 2012 Saroj Sharma. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "NSString+SKNSString.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self emailValidation];
 }
 
 - (void)viewDidUnload
@@ -26,9 +29,11 @@
     // Release any retained subviews of the main view.
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+
+- (void)emailValidation{
+    
+    NSString *email =@"youremail@domain.com";
+    NSLog(@"%@", ([email isValidateEmail:email] ? @"Is valid" : @"Is invalid"));
 }
 
 @end
