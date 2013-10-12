@@ -31,7 +31,6 @@
 		440CF82415CA7C4E00A84C91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		440CF82515CA7C4E00A84C91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		440CF82815CA7C4E00A84C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		B411432718094206008D92F9 /* NSString+SKNSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKNSString.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +102,6 @@
 		4495F60415CA7F0100D7186C /* SKHelperFiles */ = {
 			isa = PBXGroup;
 			children = (
-				B411432718094206008D92F9 /* NSString+SKNSString.h */,
 			);
 			path = SKHelperFiles;
 			sourceTree = "<group>";
